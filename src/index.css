@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10%;
+    align-items: center;
+}
+
+.logo{
+    font-size: 32px;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+
+}
+.logo .three{
+    color: orangered;
+    font-size: 36px;
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    margin-left: 30px;
+    list-style: none;
+
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-family: "Teko", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+button{
+    padding: 3px 8px;
+    color: white;
+    font-family: "Teko", sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    background-color: blue;
+    border: none; 
+    border-radius: 5px;
+    cursor: pointer;   
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 15%;
+    
+}
+
+
+.hero_image img{
+    width: 400px;
+    height: 500px;
+    /* padding: 50px 80px; */
+}
+
+.hero_text{
+    width: 35%;
+    
+    height: 320px;
+    padding: 25px;
+    padding-top: 25px;
+    display: flex-y;
+    justify-content: center;
+    align-items: center;
+    margin: 70px auto;
+    
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 5px;
+    
+    /* background-color: aqua; */
+}
+.heading{
+    padding-bottom: 20px;
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  margin-left: 20px;
+}
+.hero_text h1{
+    font-size: 32px;
+    
+    padding: 0;
+    margin:  0;
+    font-weight: 600;
+}
+.hero_text p{
+    color: gray;
+    margin: 2px 0;
+    font-size: 14px;
+}
+.hero_text p a{
+    color: orangered;
+}
+
+label{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin-left: 20px;
+}
+input{
+    width: 80%;
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid gray;
+    margin: 5px 0;
+    padding: 2px 12px;
+    margin-left: 20px;
+}
+.forgot{
+    display: inline;
+    padding-left: 100px;
+    font-size: 13px;
+}
+.forgot a{
+    color: orangered;
+    font-family: "Poppins", sans-serif;
+}
+
+.hero_text button{
+    width: 87%;
+    padding: 5px 15px;
+    margin-top: 20px;
+    height: 40px;
+    margin-left: 20px;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    background-color: orangered;
+    font-size: 14px;
+    transition: ease-in-out 0.3s;
+    
+}
+
+button:hover{
+    color: orangered;
+    background-color: white;
+    transition: ease-in-out 0.3s;
+    border: 1px solid orangered;
+}
